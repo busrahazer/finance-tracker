@@ -1,6 +1,6 @@
 import sqlite3
 
-DB_NAME = "data/finance.db"
+DB_NAME = "data/expences.db"
 
 class DatabaseManager:
     def __init__(self):

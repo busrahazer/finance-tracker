@@ -1,0 +1,26 @@
+/* styles.qss */
+QWidget {
+    background: linear-gradient(to bottom, #ffe6e9, #ffc0cb);
+    font-family: 'Arial';
+}
+QLabel {
+    font-size: 16px;
+}
+QLineEdit, QTextEdit, QComboBox, QPushButton {
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 14px;
+}
+QPushButton {
+    background-color: #ff4081;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+QPushButton:hover {
+    background-color: #e91e63;
+}
+QTableWidget {
+    background: white;
+    border-radius: 10px;
+}
